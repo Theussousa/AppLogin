@@ -1,4 +1,5 @@
 ✨ Funcionalidades
+
 Tela de login com autenticação por e-mail e senha
 
 Tela de cadastro com validação de repetição de senha
@@ -14,6 +15,7 @@ Ocultação de senha com inputType="textPassword"
 Textos com cor personalizada para melhor legibilidade
 
 🛠️ Tecnologias e ferramentas
+
 Android Studio
 
 Java / Kotlin
@@ -25,6 +27,7 @@ ConstraintLayout
 Material Design
 
 📌 Aprendizados
+
 Esse projeto foi um exercício prático para aprofundar meus conhecimentos em:
 
 Integração de back-end com Firebase
