@@ -13,7 +13,6 @@ class RegisterActivity : AppCompatActivity() {
     private lateinit var password: EditText
     private lateinit var repeatPassword: EditText
     private lateinit var registerBtn: Button
-    private lateinit var backBtn: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -53,8 +52,8 @@ class RegisterActivity : AppCompatActivity() {
                 }
         }
 
-        backBtn.setOnClickListener {
-            finish()
+
+
         }
     }
-}
+

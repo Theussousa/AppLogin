@@ -10,7 +10,8 @@ android {
 
     defaultConfig {
         applicationId = "com.app.applogin"
-        minSdk = 28
+        minSdk = 29
+        //noinspection OldTargetApi
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -48,5 +49,6 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(platform("com.google.firebase:firebase-bom:33.13.0"))
     implementation("com.google.firebase:firebase-auth:23.2.0")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
 
 }
